@@ -4,16 +4,18 @@
 [Check out react-editor-md on NPM](https://www.npmjs.com/package/react-editor-md)
 
 #### Your HTML template should includes the following tags:
+```
+<!-- Editor.md Imports -->
+<link href="./assets/css/editormd.css" rel="stylesheet" type="text/css" />
+<script src="./assets/js/jquery-1.11.3.min.js" ></script>
+<script src="./assets/js/editormd.js"></script>
+<script src="./assets/lib/codemirror/codemirror.min.js"></script>
 
-##### CSS
+<!-- Font Imports -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
 ```
-<link rel="stylesheet" href="../assets/css/editormd.css" />
-```
-##### JS
-```
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/editormd.js"></script>
-```
+
+#### You should also copy the included assets to your public www folder
 
 ### Install
 ```
